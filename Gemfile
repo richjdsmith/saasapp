@@ -42,8 +42,12 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 # Use Font Awesome for adding icons
 gem 'font-awesome-sass', '~> 4.7.0'
+# Hirb provides a mini view framework for console applications
+# and uses it to improve ripl(irb)'s default inspect output.
+gem 'hirb', '~> 0.7.3'
 
 
+##### END NON CUSTOM GEMS #####
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
