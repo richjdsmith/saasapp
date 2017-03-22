@@ -45,9 +45,13 @@ gem 'font-awesome-sass', '~> 4.7.0'
 # Hirb provides a mini view framework for console applications
 # and uses it to improve ripl(irb)'s default inspect output.
 gem 'hirb', '~> 0.7.3'
+# Devise gem used to build and maintain user authentication.
+gem 'devise', '~> 4.2'
 
 
 ##### END NON CUSTOM GEMS #####
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
