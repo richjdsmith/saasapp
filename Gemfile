@@ -47,6 +47,10 @@ gem 'font-awesome-sass', '~> 4.7.0'
 gem 'hirb', '~> 0.7.3'
 # Devise gem used to build and maintain user authentication.
 gem 'devise', '~> 4.2'
+# Use stripe for payment processing
+gem 'stripe', '1.48.0'
+# Use fiagro for ENV variables
+gem 'figaro', '~> 1.1', '>= 1.1.1'
 
 
 ##### END NON CUSTOM GEMS #####
