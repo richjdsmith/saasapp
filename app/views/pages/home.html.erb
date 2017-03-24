@@ -18,8 +18,8 @@
         <h2>Pro Membership</h2>
         <h4>Sign up for the pro account for $10/month and get full access to the community and contact information!</h4>
         <%= link_to "Sign up with Pro", new_user_registration_path(plan: @pro_plan.id), class: 'btn btn-success btn-large btn-block' %>
-
       </div>
     </div>
   </div>
+    <%= link_to "Create your profile", new_user_profile_path(user_id: current_user), class: 'btn btn-large btn-primary' if user_signed_in? %>
 </div>
