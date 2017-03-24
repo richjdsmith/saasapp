@@ -51,6 +51,8 @@ gem 'devise', '~> 4.2'
 gem 'stripe', '1.48.0'
 # Use fiagro for ENV variables
 gem 'figaro', '~> 1.1', '>= 1.1.1'
+# Use Paperclip to upload profile images
+gem 'paperclip', '~> 5.1'
 
 
 ##### END NON CUSTOM GEMS #####
