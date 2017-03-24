@@ -19,3 +19,15 @@
   background-color: rgba(255, 184, 140, 1.0);
   border-color: rgba(255, 184, 140, 0.5)
 }
+
+.job-title-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px, solid rgba(222, 98, 98, 0.5);
+  border-radius: 4px;
+  background-color: rgba(255, 184, 140, 0.5);
+  color: rgba(222, 98, 98, 1.0);
+  text-align: center;
+
+}
