@@ -24,7 +24,7 @@ class ContactsController < ApplicationController
     else
       #If Contact object, store errors in flash hash and re-render the new form.
       flash[:danger] = @contact.errors.full_messages.join(", ")
-      render new_contact_path
+      render :new
     end
   end
 
